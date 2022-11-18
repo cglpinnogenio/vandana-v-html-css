@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+    margin: 0rem;
+}
+.menuitems{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    width: 100%;
+    /* position: fixed; */
+}
+a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+.awards{
+    font-size: 4rem;
+    font-weight:lighter;
+    padding: 3rem;
+}
+.items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 200;
+    font-size: 2rem;
+    gap: 6rem;
+       
+}
+.signin{
+    color: white;
+    text-decoration: none;
+    flex-wrap: nowrap;
+    font-size: 2rem;
+    padding: 3rem;
+    font-weight: lighter;
+}
+.plant{
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 20px;
+    padding-right: 5rem; 
+    margin-top: 6rem;
+}
+.matter{
+    color: white;
+    padding: 4rem;
+    margin-top: 4rem;
+}
+
+.welcome{
+    font-size: 4rem;
+    display: grid;
+    row-gap: 30px;
+    padding-bottom: 4rem;
+    
+}
+.sentence{
+    
+    display: block;
+    color: rgb(201, 192, 192);
+    font-size: 1.5rem;
+    
+}
+.click{
+    color:rgb(255, 255, 255);
+    font-size: 1rem;
+    margin-left: 0px;
+    margin-top: 4rem;
+    text-decoration: underline;
+}
+.secondhalf{
+    margin-top: 15rem;
+    height: 50rem;
+    width: 100%; 
+    /* opacity: 0.6; */
+    background-color: rgb(36, 35, 33, .6); 
+       
+}
+.front{
+    margin-top: 10rem;
+    margin-bottom: 10rem; 
+    /* left: 5rem;
+    right: 5rem; */
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    height: 40rem;
+    flex-wrap: wrap;
+    background-color: rgb(46, 46, 46); 
+    
+   
+      
+   }
