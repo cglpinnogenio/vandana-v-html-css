@@ -26,11 +26,9 @@
                     <a href="#" target="_blank"><i>SIGN IN /SIGN UP</i></a>
                 </div>
             </div>
-            <div class="plant">
-                <img src="Capture.PNG" alt="plant">
-            </div>
-            <div class="matter">
-                <div class="welcome">Welcome to the competition
+            <div class="container">
+                 <div class="matter">
+                 <div class="welcome">Welcome to the competition
                 </div>
                 <span class="sentence">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget ac, nec viverra
                     pretium. </span>
@@ -46,10 +44,15 @@
                 <div class="click">
                     <a href="#" target="_blank" >Click to see more</a>
                 </div>
+                
+            </div>
+            <div class="plant">
+                <img src="Capture.PNG" alt="plant">
+            </div>
             </div>
         </div>
         <div class="secondhalf">
-            <div class="front"></div>
+            <div class="front">
             <div class="leftside">
             <div class="fill">Fill the Application</div>
             <div class="form">
@@ -63,25 +66,77 @@
                     <input type="number"id="phone"name="phone" placeholder="Phone Number"required/>
                 </div>
                 <div class="street">
-                    <input type="street"id="street"name="street" placeholder="Street Address"required/>
+                    <input type="text"id="street"name="street" placeholder="Street Address"required/>
                 </div>
-                <div class="city&state">
-                    <div class="city">
-                    <select>
+                <div>
+                    <input type="text"id="street2"name="street"/>
+                </div>
+                <div >
+                    
+                    <select class="city">
                         <option value="city">City</option>
                         <option value="kottayam">Kottayam</option>
                         <option value="thrissur">Thrissur</option>
                       </select>
-                    <select>
+                    <select class="state">
                         <option value="state">State</option>
                         <option value="kerala">Kerala</option>
                       </select>
+                    
+                </div>
+                <div >
+                    <select class="country">
+                        <option value="country">Country</option>
+                        <option value="india">India</option>
+                        <option value="uk">UK</option>
+                      </select>
+                      <input type="text" class="zip" id="zip"name="zip" placeholder="Zip Code"required />
+                </div>
+                <div class="gender">
+                    <input type="radio" id="male" name="gender" value="Male" checked />
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="Female" />
+                    <label for="male">Female</label>
 
-                    </div>
                 </div>
             </div>
             </div>
+            <!-- <div class="form2"> -->
+            <div class="rightside">
+            <div class="description">Description</div>
+            <div>
+            <textarea  class="destext" rows="20" column="30" role="textbox" required></textarea>
+        </div>
+            <div>
+                <select class="photocontest" id="photo">
+                    <option value="Photo Contest Category">Photo Contest Category</option>
+                    <option value="ABC">ABC</option>
+                    <option value="XYZ">XYZ</option>
+                  </select>
+                  </div>
+            <div class="payment">Payment Option</div>
+            <div class="card">
+                <input type="text" id="card" name="card" placeholder="Name on Card*"required/> 
             </div>
+            <div class="creditcard">
+                <input type="text" id="creditcard" name="creditcard" placeholder="Credit Card*"required/> 
+            </div>
+            <div class="conditions">Terms and Conditions</div>
+            <input type="checkbox" class="check" id="check" name="check" checked>
+            <label for="agree" class="agree">I Agree</label>
+            
+            <div class="entry">
+                <div>
+                <input type="button" id="submit"  value="Submit">
+            </div>
+            <div>
+                <input type="button" id="cancel" value="Cancel">
+            </div>
+            <!-- </div> -->
+        </div>
+        </div>
+        </div>
+       </div>
     </div>
 
 </body>
