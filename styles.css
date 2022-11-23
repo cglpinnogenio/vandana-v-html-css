@@ -164,7 +164,7 @@ a{
     margin-top: 3rem;
  }
  .city{
-    color: gray;
+    color: white;
     border: none;
     outline: none;
     border-bottom: 1px solid white;
@@ -191,7 +191,7 @@ a{
     width:15%;
  }
  .state{
-    color: gray;
+    color: white;
     border: none;
     outline: none;
     border-bottom: 1px solid white;
@@ -201,7 +201,7 @@ a{
     margin-left: 3rem;
  }
  .country{
-    color: gray;
+    color: white;
     border: none;
     outline: none;
     border-bottom: 1px solid white;
@@ -237,6 +237,7 @@ a{
     resize: none;
     height: 15vh;
     margin-top: 3rem;
+    color: white;
           
  }
  .photocontest{
@@ -269,8 +270,8 @@ a{
     margin-top: 3rem;
 }
 .check{
-    accent-color: black;
-    color: green;
+    accent-color: green;
+    color: black;
 }
 .agree{
     color: white;
