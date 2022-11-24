@@ -66,7 +66,6 @@ a{
 .plant{
     
     justify-content: flex-end;
-    /* border-radius: 20px; */
     padding-right: 5rem; 
     
 }
@@ -106,27 +105,26 @@ a{
     margin-top: 15rem;
     padding-top: 5rem;
     padding-bottom: 5rem;
-    /* height: 130vh; */
+    padding-left: 4rem;
+    padding-right: 4rem;
     width: 100%; 
     background-color: rgb(36, 35, 33, .6); 
-    
-       
+        
 }
 
 .front{
     
-    width: 90%;
-    /* height: 100vh; */
+    width: 100%;
     background-color: rgb(46, 46, 46); 
     display: flex;
-    /* padding: 7rem; */
+    flex-wrap: wrap;
+    align-items: center;
     background-image:url(asset/cameraImage.svg);
     background-position: center;
     
     
  }
   .leftside{
-    /* width: 50%; */
     border-right: 1px solid rgb(255, 255, 255);
     padding: 5rem;
     flex-grow: 1;
@@ -224,13 +222,12 @@ a{
  .gender{
     font-size:1.5rem;
     margin-top: 3rem;
-    color: gray;
+    color: rgb(97, 97, 97);
  }
  .rightside{
-    margin-left: 4rem;
-    /* height: 90vh; */
     flex-grow: 1;
     flex-basis: 50%;
+    padding-left: 4rem;
  }
  
  .description{
