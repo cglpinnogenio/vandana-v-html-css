@@ -34,7 +34,7 @@ a{
 }
 .awards{
     font-size: 5rem;
-    font-weight:lighter;
+    font-weight:400;
     padding: 2rem;
 }
 .items{
@@ -44,7 +44,7 @@ a{
     align-items: center;
     font-weight: 200;
     font-size: 2.5rem;
-    gap: 6rem;
+    width: 50%;
        
 }
 .signin{
@@ -53,7 +53,7 @@ a{
     flex-wrap: nowrap;
     font-size: 2.5rem;
     padding: 3rem;
-    font-weight: lighter;
+    font-weight: 400;
 }
 .container{
     display: flex;
@@ -86,7 +86,9 @@ a{
     
 }
 .sentence{
-    display: block;
+    max-width: 70%;
+    display: flex;
+    flex-wrap: wrap;
     color:rgb(97, 97, 97);
     font-size: 1.6rem;
     
@@ -98,15 +100,12 @@ a{
     margin-top: 4rem;
     text-decoration: underline;
 }
-.secondhalf{
+.container-second{
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 15rem;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-    padding-left: 4rem;
-    padding-right: 4rem;
+    padding: 5rem 4rem;
     width: 100%; 
     background-color: rgb(36, 35, 33, .6); 
         
@@ -179,7 +178,7 @@ a{
     margin-top: 3rem;
     font-size:1.5rem;
  }
- #fullname{
+ #full-name{
     width: 50%;
  }
  #email{
@@ -198,7 +197,7 @@ a{
     width:15%;
  }
  .state{
-    color: gray;
+    color: rgb(97, 97, 97);
     border: none;
     outline: none;
     border-bottom: 1px solid rgb(255, 255, 255);
@@ -208,7 +207,7 @@ a{
     margin-left: 3rem;
  }
  .country{
-    color: gray;
+    color:rgb(97, 97, 97);
     border: none;
     outline: none;
     border-bottom: 1px solid rgb(255, 255, 255);
