@@ -1,0 +1,332 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    background-color: rgb(0, 0, 0);
+    font-family: 'Roboto', sans-serif;
+    margin: 0rem;
+}
+.fullpage{
+    max-width: 1500px;
+    margin: auto;
+}
+.menuitems{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    width: 100%;
+    top: 0;
+    position: fixed;
+    padding: 0 2rem;
+    background-color: rgb(0, 0, 0);
+    max-width: 1500px;
+    
+}
+a{
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    cursor: pointer;
+}
+.awards{
+    font-size: 5rem;
+    font-weight:400;
+    padding: 2rem;
+}
+.items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 200;
+    font-size: 2.5rem;
+    width: 50%;
+       
+}
+.signin{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    flex-wrap: nowrap;
+    font-size: 2.5rem;
+    padding: 3rem;
+    font-weight: 400;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10rem;
+    height:calc(100vh-10rem);
+    
+}
+.plant{
+    
+    justify-content: flex-end;
+    padding-right: 5rem; 
+    
+}
+.plant img{
+    border-radius: 20px;
+}
+.matter{
+    
+    color: rgb(255, 255, 255);
+    padding: 4rem;
+    
+}
+.welcome{
+    font-size: 6rem;
+    font-weight: 400;
+    margin-top: 7rem;
+    padding-bottom: 4rem;
+    
+}
+.sentence{
+    max-width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    color:rgb(97, 97, 97);
+    font-size: 1.6rem;
+    
+}
+.click{
+    color:rgb(97, 97, 97);
+    font-size: 1.5rem;
+    margin-left: 0px;
+    margin-top: 4rem;
+    text-decoration: underline;
+}
+.container-second{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15rem;
+    padding: 5rem 4rem;
+    width: 100%; 
+    background-color: rgb(36, 35, 33, .6); 
+        
+}
+
+.front{
+    
+    width: 100%;
+    background-color: rgb(46, 46, 46); 
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-image:url(asset/cameraImage.svg);
+    background-position: center;
+    
+    
+ }
+  .leftside{
+    border-right: 1px solid rgb(255, 255, 255);
+    padding: 5rem;
+    flex-grow: 1;
+    flex-basis: 50%;
+  }
+  
+ .fill{
+    color: rgb(255, 255, 255);
+    font-size:1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    
+ }
+
+ .form input[type="text"]
+ {
+    color: rgb(255, 255, 255);
+    border: none;
+    outline: none;
+    font-size:1.5rem;
+    padding: auto;
+    border-bottom: 1px solid white;
+    background-color: transparent;
+    margin-top: 3rem;
+ }
+ .form input[type="email"]
+ {
+    color: rgb(255, 255, 255);
+    border: none;
+    outline: none;
+    font-size:1.5rem;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    background-color: transparent;
+    margin-top: 3rem;
+ }
+ .form input[type="number"]
+ {
+    color: rgb(255, 255, 255);
+    border: none;
+    outline: none;
+    font-size:1.5rem;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    background-color: transparent;
+    margin-top: 3rem;
+ }
+ .city{
+    color: gray;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    background-color: transparent;
+    margin-top: 3rem;
+    font-size:1.5rem;
+ }
+ #full-name{
+    width: 50%;
+ }
+ #email{
+    width: 50%;
+ }
+ #phone{
+    width: 50%;
+ }
+ #street{
+    width: 50%;
+ }
+ #street2{
+    width: 50%;
+ }
+ #zip{
+    width:15%;
+ }
+ .state{
+    color: rgb(97, 97, 97);
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    background-color: transparent;
+    margin-top: 3rem;
+    font-size:1.5rem;
+    margin-left: 3rem;
+ }
+ .country{
+    color:rgb(97, 97, 97);
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    background-color: transparent;
+    margin-top: 3rem;
+    font-size:1.5rem;
+ }
+ .zip{
+    margin-left: 3rem;
+ }
+ .gender{
+    font-size:1.5rem;
+    margin-top: 3rem;
+    color: rgb(97, 97, 97);
+ }
+ .rightside{
+    flex-grow: 1;
+    flex-basis: 50%;
+    padding-left: 4rem;
+ }
+ 
+ .description{
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    margin-top: 6rem;
+      
+ }
+ .destext{
+    background-color: transparent;
+    border-radius: 20px;
+    width: 50%;
+    resize: none;
+    height: 15vh;
+    margin-top: 3rem;
+    padding: 1rem;
+    color: rgb(255, 255, 255);
+          
+ }
+ .photocontest{
+    color:rgb(97, 97, 97);
+    border: none;
+    border-bottom: 1px solid white;
+    background-color: transparent;
+    margin-top: 3rem;
+    font-size: 1.5rem;
+ }
+ .payment{
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    margin-top: 3rem;
+ }
+ .rightside input[type="text"] 
+ {
+    color: rgb(255, 255, 255);
+    border: none;
+    outline: none;
+    font-size: 1.5rem;
+    border-bottom: 1px solid white;
+    background-color: transparent;
+    margin-top: 3rem;
+ } 
+
+ .conditions{
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    margin-top: 3rem;
+}
+.check{
+    accent-color: rgb(18, 197, 18);
+    color: rgb(0, 0, 0);
+}
+.agree{
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    margin-top: 3rem;
+}
+#submit{
+    background-color: rgb(96, 188, 81);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    height: 3rem;
+    width: 20rem; 
+    text-align: center;
+    border: none;
+    margin-top: 1.25rem;
+    border-radius: 20px;
+    font-size: 1.5rem;
+}
+#cancel{
+    background-color: rgb(8, 8, 8);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    height: 3rem;
+    width: 20rem;
+    text-align: center;
+    border: none;
+    margin-top: 1.25rem;
+    border-radius: 20px;
+    font-size: 1.5rem;
+    margin-left: 3rem;
+}
+.conditions{
+    color:rgb(88, 129, 159);
+}
+   .entry{ 
+    display: flex;
+    justify-content: flex-start;
+} 
+#photo{
+    width:60%;
+}
+#card{
+    width:60%;
+}
+#creditcard{
+    width:60%;
+}
+ input[type="number"]::-webkit-outer-spin-button,
+ input[type="number"]::-webkit-inner-spin-button 
+ {
+   -webkit-appearance: none;
+ }
